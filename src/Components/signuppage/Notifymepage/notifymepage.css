@@ -1,0 +1,31 @@
+.notify-container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+  }
+  
+  button {
+    background-color: #0077b5;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  

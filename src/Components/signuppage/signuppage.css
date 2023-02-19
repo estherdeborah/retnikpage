@@ -1,0 +1,67 @@
+.waitlist-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #754DE8;
+    margin-left: 10px;
+  }
+  
+  .Signup {
+    padding: 10px 130px;
+    border-radius: 10px;
+    background-color: #754de8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  
+  .freelancer {
+    padding: 10px 70px;
+    border-radius: 10px;
+    color: #7E1CFE;
+    border: 1px solid #754DE8;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-top: 3%;
+    text-decoration-line: underline;
+    background-color:whitesmoke;
+  }
+  
+  
+  button:hover {
+  
+    transform: scale(1.1);
+     background: transparent;
+  color: rgb(5, 5, 243);;
+  }
+  h2{
+    margin-top: -190px;
+    color: #7E1CFE;
+  }
